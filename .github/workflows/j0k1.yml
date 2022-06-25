@@ -26,11 +26,11 @@ jobs:
 
     - name: Connect Ngrok.
 
-      run: .\ngrok\ngrok.exe authtoken $Env:jokijoki
+      run: .\ngrok\ngrok.exe authtoken $Env:2B4srPR7E9eyxOJFN4QyLXKvv1D_2WBFUoKQj7XvqxZt5Y7Pe
 
       env:
 
-        NGROK_AUTH_TOKEN: ${{ secrets.jokijoki }}
+        jokijoki: ${{ secrets.jokijoki }}
 
     - name: Windows10 RDP.
 
